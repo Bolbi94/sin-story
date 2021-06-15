@@ -1,0 +1,11 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.body-container {
+  min-height: calc(100vh - 360px);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}

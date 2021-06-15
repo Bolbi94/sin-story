@@ -1,0 +1,30 @@
+.container {
+  /* margin: 30px 25px; */
+  background-color: rgb(245, 245, 245);
+  max-width: 1600px!important;
+  margin: 0!important;
+}
+
+.grid-list {
+  max-width: 1680px;
+}
+
+.tile > div {
+  width: 300px;
+  margin: auto;
+}
+
+.empty-list {
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  color: red;
+  padding: 5px 10px 15px 10px;
+  cursor: pointer;
+}

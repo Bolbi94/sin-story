@@ -1,0 +1,17 @@
+.footer {
+  height: 240px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links > a {
+  color: red;
+}
+
+.links > h2 {
+  margin: 5px 10px;
+}

@@ -1,0 +1,34 @@
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  margin: auto;
+}
+
+.image-cell {
+  padding: 10px 0;
+  height: 280px;
+  max-width: 280px;
+  margin: auto;
+}
+
+.icon {
+  color: red;
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .cell {
+    max-height: 200px!important;
+  }
+  .image-cell {
+    padding: 5px 0!important;
+    height: 190px!important;
+    max-width: 190px!important;
+  }
+}

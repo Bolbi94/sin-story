@@ -1,0 +1,52 @@
+.container {
+  height: 120px;
+  background-color: white;
+  margin: 0 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+}
+
+.links > a {
+  cursor: pointer;
+  color: red;
+  margin: 0 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 33%;
+}
+
+.badge > a {
+  color: red;
+}
+
+.badge {
+  cursor: pointer;
+  color: red;
+  margin: 0 20px;
+}
+
+.undo-icon {
+  color: red;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    margin: 0;
+  }
+}

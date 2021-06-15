@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+}
+
+.control {
+  padding: 15px 30px 5px 30px!important;
+  width: calc(100% - 60px);
+}
+
+.button {
+  padding: 15px 30px!important;
+  width: calc(100% - 60px);
+}
+
+.alert-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.alert {
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  color: white;
+  z-index: 100!important;
+}
+
+.swal {
+  font-family: Tarif!important;
+}

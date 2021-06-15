@@ -1,0 +1,18 @@
+.container {
+  padding: 15px;
+  max-width: 480px;
+}
+
+.image {
+  width: 100%;
+  max-width: 480px;
+}
+
+.title {
+  text-align: center;
+}
+
+.order-form {
+  width: 100%;
+  padding-bottom: 5px;
+}
