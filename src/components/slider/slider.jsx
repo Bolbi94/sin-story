@@ -11,8 +11,8 @@ const SliderComponent = () => {
     slidesToShow: 1,
     infinite: true,
     speed: 3500,
-    // autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 9000,
     pauseOnHover: false,
     swipeToSlide: true,
     slidesToScroll: 1,
@@ -22,24 +22,22 @@ const SliderComponent = () => {
   
   return (
     <Grid container item direction='column'>
-      <Grid item xs={12} className={styles['container']}>
-        <Slider {...settings} >
-          {
-          Slides?.map((slide, i) => {
-              return (
-                <div key={i}>
-                  {slide}
-                </div>
-              )
-            })
-          }
-        </Slider>
+      <Grid container item>
+        <Grid item xs={12} className={styles['container']}>
+          <Slider {...settings} >
+            {
+            Slides?.map((slide, i) => {
+                return (
+                  <div key={i}>
+                    {slide}
+                  </div>
+                )
+              })
+            }
+          </Slider>
+        </Grid>
       </Grid>
       <Grid item className={styles['bio']}>
-        {/* <h1>{`Бельё и купальники ручной работы с уникальным дизайном. Шьём индивидуально по Вашим меркам.`}<br />
-        {`Есть подарочные сертификаты в разных эквивалентах❤️`}<br />
-        {`Каждую позиции можно приобрести по отдельности 💫`}<br />
-        {`Пишите нам в инстаграм @sin.story_ для консультации, либо оставляйте заявку на нашем сайте и мы с Вами свяжемся.`}</h1> */}
         <h2>
           {`Купальники и бельё ручной работы с уникальным дизайном✨`}<br /><br />
 
